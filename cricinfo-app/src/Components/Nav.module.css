@@ -1,0 +1,57 @@
+.nav{
+    height:45px;
+    width:100%;
+    margin:auto;
+    /* border:2px solid red; */
+    background-color: #03a9f4;
+    display: flex;
+    /* margin-top: 54px; */
+    justify-content: space-evenly;
+    align-items: center;
+    position: sticky;
+}
+a {
+    text-decoration: none;
+    color: white;
+}
+h4{
+    color: white;
+    font-size: 16px;
+   font-weight: 200;
+}
+.navLi{
+    color: white;
+    font-size: 15px;
+    padding: 14px 12px;
+    /* border:2px solid green; */
+    display: flex;
+    align-items: center;
+     gap:25px;
+     margin-left: -140px;
+}
+.fontreact{
+    color: white;
+    font-size: 15px;
+    padding: 14px 12px;
+    /* border:2px solid green; */
+    display: flex;
+    align-items: center;
+    gap:25px;
+}
+.moon{
+    font-size: 20px;
+}
+.notification{
+    font-size: 20px;
+}
+.translate{
+    font-size: 25px;
+}
+.appss{
+    font-size: 20px;
+   color:white
+}
+.fasearch{
+    font-size: 20px;
+   color:white
+}
