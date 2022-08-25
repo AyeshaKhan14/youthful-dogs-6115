@@ -1,0 +1,106 @@
+.headermaininner{
+    width: 85%;
+    height: 150px;
+    margin: auto;
+    display: flex;
+   
+}
+.card{
+    width: 288px;
+    height: 153px;
+    background-color: white;
+    border-radius: 7px;
+    margin: 10px;
+}
+.cardInner{
+    padding: 8px;
+}
+
+.verticalLine{
+    border-left: 1px solid rgb(255, 255, 255);
+     height: 132px;
+     margin-top: 10px;
+}
+.lastdiv>h5{
+    margin: 5px 15px 0px 0px;
+    font-size: .7rem;
+    margin-bottom: 15px;
+    text-align: left;
+}
+.lastdiv{
+    width: 100%;
+     background-color: rgb(211, 208, 208);
+}
+.iplTeamName>h5{
+    margin: 15px 15px 0px 0px;
+    font-size: .7rem;
+}
+
+.hfive>h5{
+    margin: 0px 15px 0px 0px;
+    color: rgb(0, 0, 0);
+}
+.hfive2>h5{
+    margin: 3px 15px 0px 0px;
+    font-size: .7rem;
+    color: rgb(151, 149, 149);
+}
+
+.hfive2>span{
+    color: black;
+
+}
+body {
+    padding: 0;
+    margin: 0;
+    background-color: #f8f9fa;
+    font-size: 1rem;
+    font-weight: 400;
+    font-family: BentonSans, Arial, Noto Sans, sans-serif;
+}
+
+.btn {
+    display: flex;
+    width: 85%;
+    margin: auto;
+    padding-top: 15px;
+}
+
+.btn>button {
+    background: transparent;
+    border: none;
+    outline: none;
+    font-size: 13px;
+    font-weight: 500;
+    color: white;
+    cursor: pointer;
+    margin-right: 20px;
+    position: relative;
+}
+
+button::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 100%;
+    width: 0;
+    height: 1px;
+    background-color: rgb(255, 255, 255);
+}
+.iplLogo{
+    width: 25px;
+    padding: 5px 10px;
+}
+.iplTeamName{
+    display: flex;
+}
+.headerMainSec{
+    background-color: #038dcc;
+    height: 200px;
+}
+.parafont>p{
+    font-size: 10px;
+    margin-left: -175px;
+    margin-top: 0px;
+    color:rgb(87, 86, 86)
+}

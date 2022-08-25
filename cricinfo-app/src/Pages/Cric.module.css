@@ -1,0 +1,19 @@
+.crcfive>div>h1{
+    font-size: 20px;
+    color:#2B2c2D;
+    font-family: sans-serif;
+    text-align: left;
+}
+.dataMain>div>p{
+    font-size: 16px;
+    color:#48494A;
+    text-align: left;
+}
+.dataMain{
+    border: 1px solid rgb(168, 166, 166);
+    margin-bottom: 5px;
+    border-left: none;
+    border-right: none;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}

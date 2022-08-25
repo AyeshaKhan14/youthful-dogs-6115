@@ -1,0 +1,37 @@
+.mainsidebr{
+    border:1px solid silver;
+    border-radius: 5px;
+    background-color: white;
+}
+
+.thirdbar{
+    border:1px solid silver;
+    height:240px;
+    background-color: white;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    
+}
+.imageheading{
+    /* border:1px solid green; */
+    height:210px;
+    width:90%;
+    margin: auto;
+    margin-top: 15px;
+}
+.imageheading>img{
+    height:180px;
+    width:100%;
+    border-radius: 8px;
+}
+.imageheading>h1{
+    font-size: 14px;
+}
+.bacchhanimg>img{
+    height:350px;
+    width:100%;
+}
+.bacchhanimg{
+    margin-bottom: 10px;
+}

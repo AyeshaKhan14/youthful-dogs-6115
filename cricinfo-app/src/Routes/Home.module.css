@@ -1,0 +1,35 @@
+.home{
+    width:100%;
+   /* border:2px solid red; */
+    margin:auto;
+}
+.mainContainer{
+    width:80%;
+    margin:auto;
+    /* border:2px solid red; */
+    height:80%;
+    display: flex;
+    gap:10px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+
+}
+.khanak1{
+    /* border:2px solid navy; */
+    width:25%;
+
+}
+.khanak2{
+    border:1px solid rgb(169, 168, 168);
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    border-bottom: none;
+    width:50%;
+    background-color: white;
+    
+}
+.khanak3{
+    /* border:2px solid navy; */
+    width:25%;
+    
+}
