@@ -4,12 +4,14 @@ import Style from "./Nav.module.css"
 import {FaBell, FaMoon ,FaSearch} from "react-icons/fa"
 import {GrApps} from "react-icons/gr"
 import {MdTranslate} from "react-icons/md"
+import {AiFillAppstore} from "react-icons/ai"
 
 const Navbar=()=>{
   return (
 
     <div> 
         <FirstPage/>
+        <div >
      <div className={Style.nav}>
          {/* div-1 */}
        <div>
@@ -33,10 +35,10 @@ const Navbar=()=>{
      <div className={Style.fontreact}>
        <NavLink to=""><h4>Fantasy</h4></NavLink>
        <NavLink to=""><h4>EditionIN</h4></NavLink>
-       <NavLink  to=""><FaMoon className={Style.moon} /></NavLink>
+       <NavLink  to=""><FaMoon  className={Style.moon} /></NavLink>
        <NavLink to=""><FaBell className={Style.notification}/></NavLink>
        <NavLink to=""><h4><MdTranslate className={Style.translate}/></h4></NavLink>
-       <NavLink to=""><GrApps className={Style.appss}/></NavLink>
+       <NavLink to=""><AiFillAppstore className={Style.appss}/></NavLink>
        <NavLink to=""><FaSearch className={Style.fasearch} /></NavLink>
        </div>
 
@@ -44,6 +46,7 @@ const Navbar=()=>{
 
 
 
+   </div>
    </div>
     </div>
   
