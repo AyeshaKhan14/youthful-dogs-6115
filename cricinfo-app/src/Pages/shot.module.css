@@ -1,13 +1,13 @@
 .headermaininner{
     width: 85%;
-    height: 150px;
+    height: 190px;
     margin: auto;
     display: flex;
    
 }
 .card{
     width: 288px;
-    height: 153px;
+    height: 173px;
     background-color: white;
     border-radius: 7px;
     margin: 10px;
@@ -26,10 +26,11 @@
     font-size: .7rem;
     margin-bottom: 15px;
     text-align: left;
+    font-weight: 600;
 }
 .lastdiv{
     width: 100%;
-     background-color: rgb(211, 208, 208);
+     background-color: rgb(174, 174, 174);
 }
 .iplTeamName>h5{
     margin: 15px 15px 0px 0px;
@@ -39,6 +40,8 @@
 .hfive>h5{
     margin: 0px 15px 0px 0px;
     color: rgb(0, 0, 0);
+    text-align: left;
+    font-weight: 600;
 }
 .hfive2>h5{
     margin: 3px 15px 0px 0px;
@@ -46,8 +49,12 @@
     color: rgb(151, 149, 149);
 }
 
-.hfive2>span{
+.hfive2>h5>span{
     color: black;
+    text-align: left;
+    font-weight: 600;
+    margin-left:-80px ;
+    font-size: 12px;
 
 }
 body {
@@ -88,7 +95,7 @@ button::before {
     background-color: rgb(255, 255, 255);
 }
 .iplLogo{
-    width: 25px;
+    width: 45px;
     padding: 5px 10px;
 }
 .iplTeamName{
@@ -96,10 +103,10 @@ button::before {
 }
 .headerMainSec{
     background-color: #038dcc;
-    height: 200px;
+    height: 220px;
 }
 .parafont>p{
-    font-size: 10px;
+    font-size: 12px;
     margin-left: -175px;
     margin-top: 0px;
     color:rgb(87, 86, 86)

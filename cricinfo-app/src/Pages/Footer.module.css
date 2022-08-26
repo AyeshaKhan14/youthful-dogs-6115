@@ -70,11 +70,14 @@
    }   
 
    .tea>p{
-    font-size: 14px;
+    font-size: 16px;
     color: rgb(57, 57, 57);
     text-align: left;
+    margin-top: 5px;
    }
 
    .keyseries>h3{
     text-align: left;
+    color: black;
+    font-weight: 600;
    }

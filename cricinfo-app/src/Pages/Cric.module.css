@@ -8,12 +8,14 @@
     font-size: 16px;
     color:#48494A;
     text-align: left;
+    margin-bottom: 5px;
 }
 .dataMain{
     border: 1px solid rgb(168, 166, 166);
-    margin-bottom: 5px;
+    margin-bottom: 8px;
     border-left: none;
     border-right: none;
     border-top-left-radius: 8px;
     border-top-right-radius: 8px;
+   border-top: none;
 }
