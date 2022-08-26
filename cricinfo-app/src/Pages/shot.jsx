@@ -66,7 +66,7 @@ return (
                             <h5 >KUW</h5>
                         </div>
                         <div className={styleshot.parafont}>
-                            <p style={{marginLeft:"-38px"}}>
+                            <p style={{marginLeft:"-10px"}}>
                             Kuwait won by 6 wickets (with 73 balls remaining)
                             </p>
                         </div>
@@ -95,7 +95,7 @@ return (
                             <h5  id="teams2">NL-W</h5>
                         </div>
                         <div className={styleshot.parafont}>
-                            <p style={{marginLeft:"-130px"}}>
+                            <p style={{marginLeft:"-110px"}}>
                             Ire Women won by 211 runs
                             </p>
                         </div>
@@ -126,7 +126,7 @@ return (
                             <h5  id="teams3">TKR-W</h5>
                         </div>
                         <div className={styleshot.parafont}>
-                            <p style={{marginLeft:"-70px"}}>
+                            <p style={{marginLeft:"-40px"}}>
                             Trinbago WMN need 78 runs in 33 balls.
                             </p>
                         </div>

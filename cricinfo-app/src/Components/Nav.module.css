@@ -10,9 +10,12 @@
     align-items: center;
     position:sticky;
     top:10
-    
-   
-
+}
+.btnmoon{
+    background-color:  #03a9f4;
+    border:none;
+    color: white;
+    cursor: pointer;
 }
 a {
     text-decoration: none;

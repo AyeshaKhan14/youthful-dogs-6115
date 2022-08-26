@@ -20,7 +20,7 @@ const CricInfo=()=>{
     return (
       
             <div className={cricStyle.crcfive}>
-               
+            
            {data.map((el)=> (
           <div className={cricStyle.dataMain} key={el.id}>
             <img style={{width:"100%", height:"350px", borderRadius:"8px"}} src={el.avatar} alt={el.avatar}/>

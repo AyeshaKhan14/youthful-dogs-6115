@@ -1,0 +1,67 @@
+.News{
+    /* border:2px solid red; */
+    height:3800px;
+    width:80%;
+    display: flex;
+    margin: auto;
+    gap:15px;
+    margin-top: 25px;
+    /* margin-bottom: 150px; */
+   
+
+}
+.Newsbox1{
+    border:1px solid silver;
+    width:70%;
+    border-bottom:none ;
+}
+.Newsbox1>h1{
+    font-size: 28px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: left;
+}
+
+.Newsbox2{
+    /* border:2px solid blue; */
+    width:25%;
+  
+    
+}
+.namedescrpt{
+    display: block;
+    border:1px solid green;
+    
+}
+.gridboxcont{
+    display: flex;
+    gap:10px;
+    margin-bottom: 15px;
+    border:1px solid silver;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+
+}
+.newimage>img{
+width:300px;
+height:200px;
+border-radius: 8px;
+
+}
+.namedescrpt>h1{
+    font-size: 16px;
+    text-align: left;
+    font-weight: 600;
+}
+
+.newpara>p{
+    text-align: left; 
+    margin-top: -5px; 
+    margin-top: 4px;
+}
+
+.Newshome{
+    width:60%;
+   /* border:2px solid red; */
+    margin:auto;
+}
