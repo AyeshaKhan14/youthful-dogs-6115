@@ -27,33 +27,35 @@ const News=()=>{
          <div className={styleNews.Newshome} >
             <img src="https://tpc.googlesyndication.com/simgad/16233217720762028300?"/>
           </div>
-        <div className={styleNews.News}>
-
+       
+          <div  className={styleNews.NewshomePageNews} >
+           
             <div className={styleNews.Newsbox1}>
-                <h1>Latest News</h1>
-            {data.map((el)=> (
-          <div className={styleNews.gridboxcont} key={el.id}>
-
-            <div className={styleNews.newimage} >
-            <img style={{width:"300px", height:"150px"}} src={el.avatar} alt={el.avatar}/>
-           </div>
-            <div className={styleNews.namedescrpt}>
-            <h1>{el.name}</h1>
-            <div  className={styleNews.newpara}>
-             <p>{el.desc}</p>
-           </div>
+             {data.map((el)=>(
+              <div className={styleNews.displayFlex}>
+               <img src={el.avatar}/>
+                
+                 <div className={styleNews.headingpara}>
+                  <h1>{el.name}</h1>
+                  <p>{el.desc}</p>
+                 </div>
+                </div>
+             
+             ))}
             </div>
-          </div>
-           ))}
-     
-            </div>
-
-
-            <div className={styleNews.Newsbox2}>
+              
+          <div className={styleNews.Newsbox2}>
                 <ThirdBar/>
             </div>
+          </div>
+          
+     
+       
 
-        </div>
+
+
+      
+
         <div>
             <Footer/>
         </div>
